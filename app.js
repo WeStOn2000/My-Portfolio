@@ -24,6 +24,26 @@ app.get('/projects/:id', (req, res) => {
     }
   });
 
+app.use((req, res, next) => {
+    const error = new Error('Not Found');
+    error.status = 404;
+    next(error);
+  });
+  
+  app.use((err, req, res, next) => {
+
+    err.status = err.status || 500;
+    err.message = err.message || 'Internal Server Error';
+    console.error(`Status: ${err.status}, Message: ${err.message}`);
+    
+    res.status(err.status).json({
+      error: {
+        status: err.status,
+        message: err.message
+      }
+    });
+  });
+
 app.listen(3000,() => {
     console.log("Port:3000 Running");
 });
