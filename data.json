@@ -42,7 +42,7 @@
         "project_name": "Public API Requests ",
         "description":"This application displays a gallery of employee profiles fetched from the Random User Generator API.",
         "technologies":["CSS","HTML","JAVASCRIPT"],
-        "live_link":" https://weston2000.github.io/Public-Api-Request/",
+        "live_link":"https://weston2000.github.io/Public-Api-Request/",
         "github_link":"https://github.com/WeStOn2000/Public-Api-Request",
         "image_urls":"img/api.png"
       },
