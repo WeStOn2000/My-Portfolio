@@ -21,14 +21,16 @@ app.get("/about", (req,res) => {
  res.render('about');
 });
 // Route for displaying project details
-app.get('/projects/:id', (req, res) => {
+app.get('/projects/:id', (req, res, next) => {
     const projectId = req.params.id;
     const project = data.projects.find(p => p.id == projectId);
   
     if (project) {
       res.render('project', { project });
     } else {
-      res.status(404).send('Project not found');
+      const err = new Error('Project not found');
+      err.status = 404;
+      next(err);
     }
   });
 /*
@@ -38,7 +40,6 @@ app.get('/projects/:id', (req, res) => {
 app.use((req, res, next) => {
     const err = new Error('Sorry this Page is Not Found');
     err.status = 404;
-    res.render('error');
     next(err);
   });
   // Global Error Handler

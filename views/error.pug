@@ -2,13 +2,7 @@ extend layout
 
 block content 
 
-  
   h1 Error #{status}
   p #{message}
-  
-  
-  if status !== 404 && error.stack
-    pre #{error.stack}
 
-  
   a(href='/') Back to Home
