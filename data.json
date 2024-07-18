@@ -7,7 +7,11 @@
      "technologies":["HTML","CSS","JAVASCRIPT"],
      "live_link":" https://weston2000.github.io/Random-Quote-Generator/",
      "github_link":"https://github.com/WeStOn2000/Random-Quote-Generator",
-     "image_urls": "img/Random.png"
+     "image_urls": [
+            "/static/img/quote-1.png",
+            "/static/img/quote-2.png"
+
+     ]
   
       },
       {
@@ -17,7 +21,11 @@
         "technologies":["CSS","JAVASCRIPT","HTML"],
         "live_link":" https://weston2000.github.io/PAGINATION/",
         "github_link":"https://github.com/WeStOn2000/PAGINATION",
-        "image_urls":"img/pagination.png"
+        "image_urls":[
+            "/static/img/pagination-1.png",
+            "/static/img/pagination-2.png"
+
+        ]
       },
       {
         "id": 2,
@@ -26,7 +34,11 @@
         "technologies":["HTML","CSS","JAVASCRIPT"],
         "live_link":"https://weston2000.github.io/A-registration-Form/",
         "github_link":"https://github.com/WeStOn2000/A-registration-Form",
-        "image_urls":"img/form.png"
+        "image_urls":[
+           "/static/img/form-1.png",
+           "/static/img/form-2.png"
+
+        ]
       },
       {
         "id": 3,
@@ -35,7 +47,11 @@
         "technologies":["JAVASCRIPT","CSS","HTML"],
         "live_link":"https://weston2000.github.io/OOP-GAME-SHOW-APP/",
         "github_link":"https://github.com/WeStOn2000/OOP-GAME-SHOW-APP",
-        "image_urls":"img/Phrase.png"
+        "image_urls":[
+           "/static/img/Phrase-1.png",
+           "/static/img/phrase-2.png"
+
+        ]
       },
       {
         "id":4,
@@ -44,16 +60,23 @@
         "technologies":["CSS","HTML","JAVASCRIPT"],
         "live_link":"https://weston2000.github.io/Public-Api-Request/",
         "github_link":"https://github.com/WeStOn2000/Public-Api-Request",
-        "image_urls":"img/api.png"
+        "image_urls":[
+           "/static/img/api-1.png",
+           "/static/img/api-2.png"
+
+        ]
       },
       {
         "id":5,
         "project_name": "OOP-BREAK-OUT-GAME",
         "description":"I developed a classic Breakout game using Phaser as the game engine, leveraging its robust physics system to create an engaging gaming experience. ",
         "technologies":["HTML","JAVASCRIPT"],
-        "live_link":"https://weston2000.github.io/OOP-BREAK-OUT-GAME/",
+        "live_link":" https://weston2000.github.io/OOP-BREAK-OUT-GAME/",
         "github_link":"https://github.com/WeStOn2000/OOP-BREAK-OUT-GAME/tree/main/OOP-BREAK-BRICK-GAME/game-development-with-phaser",
-        "image_urls":[]
+        "image_urls":[
+            "/static/img/break-1.png",
+            "/static/img/break-2.png"
+        ]
       }
 
   ]
