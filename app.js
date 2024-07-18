@@ -36,15 +36,19 @@ app.get('/projects/:id', (req, res) => {
 */
 // 404 Handler
 app.use((req, res, next) => {
-    const err = new Error('Not Found');
+    const err = new Error('Sorry this Page is Not Found');
     err.status = 404;
+    res.render('error');
     next(err);
   });
   // Global Error Handler
   app.use((err, req, res, next) => {
+
+    console.log(`Error Status: ${err.status || 500}`);
+  console.log(`Error Message: ${err.message}`);
     res.status(err.status|| 500);
-    res.render('error',{
-     message: err.message,
+    res.render('page not found',{
+     message: "Oops Unfortunately We are unable to locate this page!!!",
      error: {}
     });
   });
