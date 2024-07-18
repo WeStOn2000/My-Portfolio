@@ -5,7 +5,7 @@
      "project_name": "Random Quote Generator", 
      "description":"An application that displays a different, randomly selected Quotes ",
      "technologies":["HTML","CSS","JAVASCRIPT"],
-     "live_link":"http://127.0.0.1:5500/index.html",
+     "live_link":" https://weston2000.github.io/Random-Quote-Generator/",
      "github_link":"https://github.com/WeStOn2000/Random-Quote-Generator",
      "image_urls": "img/Random.png"
   
@@ -15,7 +15,7 @@
         "project_name":"Data Pagination and Filtering " ,
         "description":"Data pagination and filtering are techniques used to enhance user experience by managing the display of large datasets on web pages.",
         "technologies":["CSS","JAVASCRIPT","HTML"],
-        "live_link":"http://127.0.0.1:5500/index.html",
+        "live_link":" https://weston2000.github.io/PAGINATION/",
         "github_link":"https://github.com/WeStOn2000/PAGINATION",
         "image_urls":"img/pagination.png"
       },
@@ -24,7 +24,7 @@
         "project_name":"Interactive Form", 
         "description":"This JavaScript code enhances the functionality of a registration form for a conference. ",
         "technologies":["HTML","CSS","JAVASCRIPT"],
-        "live_link":"http://127.0.0.1:5500/interactive-form-v3/index.html",
+        "live_link":"https://weston2000.github.io/A-registration-Form/",
         "github_link":"https://github.com/WeStOn2000/A-registration-Form",
         "image_urls":"img/form.png"
       },
@@ -33,7 +33,7 @@
         "project_name": "OOP Game Show App",
         "description": " This game challenges players to guess a hidden phrase by selecting letters from an onscreen keyboard or using their physical keyboard.",
         "technologies":["JAVASCRIPT","CSS","HTML"],
-        "live_link":"http://127.0.0.1:5500/index.html",
+        "live_link":"https://weston2000.github.io/OOP-GAME-SHOW-APP/",
         "github_link":"https://github.com/WeStOn2000/OOP-GAME-SHOW-APP",
         "image_urls":"img/Phrase.png"
       },
@@ -42,7 +42,7 @@
         "project_name": "Public API Requests ",
         "description":"This application displays a gallery of employee profiles fetched from the Random User Generator API.",
         "technologies":["CSS","HTML","JAVASCRIPT"],
-        "live_link":"http://127.0.0.1:5500/Public%20Api%20Request/student-files/index.html",
+        "live_link":" https://weston2000.github.io/Public-Api-Request/",
         "github_link":"https://github.com/WeStOn2000/Public-Api-Request",
         "image_urls":"img/api.png"
       },
@@ -51,7 +51,7 @@
         "project_name": "OOP-BREAK-OUT-GAME",
         "description":"I developed a classic Breakout game using Phaser as the game engine, leveraging its robust physics system to create an engaging gaming experience. ",
         "technologies":["HTML","JAVASCRIPT"],
-        "live_link":"http://127.0.0.1:5500/breakout_game/index.html",
+        "live_link":"https://weston2000.github.io/OOP-BREAK-OUT-GAME/",
         "github_link":"https://github.com/WeStOn2000/OOP-BREAK-OUT-GAME/tree/main/OOP-BREAK-BRICK-GAME/game-development-with-phaser",
         "image_urls":[]
       }
